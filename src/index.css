@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: 500;
+}
+
+.wrapper__boat {
+  padding: 20px;
+
+  .filter__boats {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    gap: 10px;
+  }
+
+  .filter__boats select {
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+}
+
+.wrapper__boat-card {
+  padding: 20px;
+
+  .icon__nation {
+    width: 70px;
+    height: 40px;
+  }
+}
